@@ -26,7 +26,7 @@ The project *TimeTravel* was developed as part of a research project between our
 ## Credits
 
 - Sarah Frémann (https://github.com/sfremann) 
-- Anaïs Bourguignon ()
+- Anaïs Bourguignon (https://github.com/plinkakko)
 
 <details>
   <summary>Details</summary>
