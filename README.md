@@ -64,7 +64,7 @@ The project *TimeTravel* was developed as part of a research project between our
 </details>
 
 <details>
-  <summary>Technologies & ressources</summary>
+  <summary>Technologies & resources</summary>
 
   - Unity 2022.3.4f1
   - Audacity
