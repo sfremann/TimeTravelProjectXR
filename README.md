@@ -1,6 +1,6 @@
 # TimeTravelProjectXR
 
-*Winter 2023*
+*Project Date: Winter 2023*
 
 ![image](ReadMeResources/Preview.png)
 
