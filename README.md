@@ -38,19 +38,19 @@ To exit go to Meta Quest menu and quit the application.
 
 ### ◻️ Modifying the project
 
-The project is built in a modular way so it is relatively easy to add more periods, remove periods, modify periods, etc... 
+The project is built in a modular way so it is relatively easy to add more periods, remove periods, modify periods, etc... The *`PeriodManager`* manages the implemented periods. You can add or remove a period here. For a new period to work properly you will need to make sure the new period has the right architecture.
 
 ![image](ReadMeResources/PeriodManager.png)
 
-The *`PeriodManager`* manages the implemented periods. You can add or remove a period here. For a new period to work properly you will need to make sure the new period has the right architecture.
+For each period a *`RenderSettingsManager`* handles the information / audio zones in this period. You can add or remove one. All zones have the same structure from the prefab *`InfoZone`*, you only need to select the right audio and place the zone in the room.
 
 ![image](ReadMeResources/RenderSettingsManager.png)
 
-For each period a *`RenderSettingsManager`* handles the information / audio zones in this period. You can add or remove one. All zones have the same structure from the prefab *`InfoZone`*, you only need to select the right audio and place the zone in the room.
-
-![image](ReadMeResources/PeriodIntroduction.png)
+![image](ReadMeResources/SoundZones.png)
 
 Each period contains an introductory audio activated upon arrival in the period.
+
+![image](ReadMeResources/PeriodIntroduction.png)
 
 ---
 
@@ -62,31 +62,27 @@ Each period contains an introductory audio activated upon arrival in the period.
 
 ### ◻️ Design & Writing
 
-- Scenario: Sarah Frémann & Anaïs Bourguignon
-- Dialogue: Sarah Frémann
-- Historical research: Sarah Frémann & Anaïs Bourguignon
+- **Scenario:** Sarah Frémann & Anaïs Bourguignon
+- **Dialogue:** Sarah Frémann
+- **Historical research:** Sarah Frémann & Anaïs Bourguignon
 
 ### ◻️ Programming & Engineering
 
-- Gameplay: Sarah Frémann
-- Environment behavior: Sarah Frémann
-- Putting things together/ Solving conflict: mostly Sarah Frémann with help from Anaïs Bourguignon
-- Testing/ Debug: mostly Sarah Frémann with help from Anaïs Bourguignon
+- **Gameplay:** Sarah Frémann
+- **Environment behavior:** Sarah Frémann
+- **Putting things together / Solving conflict:** mostly Sarah Frémann with help from Anaïs Bourguignon
+- **Testing / Debug:** mostly Sarah Frémann with help from Anaïs Bourguignon
 
 ### ◻️ Visuals
 
-- Effects & transitions / shaders: Sarah Frémann
-- Models & environment: Anaïs Bourguignon
-
-![image](ReadMeResources/Shader.png)
+- **Effects & transitions / shaders:** Sarah Frémann
+- **Models & environment:** Anaïs Bourguignon
 
 ### ◻️ Audio 
 
-- Sound selection: Sarah Frémann & Anaïs Bourguignon
-- Effects & transitions: Sarah Frémann
-- Voice & recording: Sarah Frémann
-
-![image](ReadMeResources/SoundZones.png)
+- **Sound selection:** Sarah Frémann & Anaïs Bourguignon
+- **Effects & transitions:** Sarah Frémann
+- **Voice & recording:** Sarah Frémann
 
 <details>
   <summary>Technologies & resources</summary>
@@ -98,5 +94,10 @@ Each period contains an introductory audio activated upon arrival in the period.
 
 > [!NOTE] 
 > Most sounds except for the voice are free-to-use assets we found on Pixabay. A few extra models are free-to-use assets we found on Sketchfab or Unity Asset Store, but most models were made by Anaïs Bourguignon.
+
+> [!NOTE] 
+> The pencil effect is based on the work of [BattleDawnNZ](https://github.com/BattleDawnNZ/Image-Effects-with-Shadergraph). The shaders and effects were modified to fit the needs of this project. Below are some early tests with the shaders.
+
+![image](ReadMeResources/Shader.png)
 
 ---
